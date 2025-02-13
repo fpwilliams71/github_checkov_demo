@@ -14,20 +14,20 @@ resource "google_compute_instance" "default" {
     initialize_params {
       image = "debian-cloud/debian-11"
     }
-    // disk_encryption_key_raw = 1111111111
+      disk_encryption_key_raw = 1111111111   // Uncomment to ensure VM disks for critical VMs are encrypted with CSEK
   }
   
-  shielded_instance_config {
-    enable_integrity_monitoring = true
-    enable_vtpm                 = true
-  }
+   shielded_instance_config {
+     enable_integrity_monitoring = false  // true to enable, and false to disable
+     enable_vtpm                 = false  // true ftoor enable, and false to disable
+   }
 
   network_interface {
     network = var.gcp_network
 
-    access_config {
+    # access_config {
       // Ephemeral public IP
-    }
+    # }
   }
 
   metadata = {
