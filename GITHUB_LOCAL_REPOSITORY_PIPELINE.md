@@ -23,7 +23,8 @@ You can create a GitHub repository for your Python application and establish a p
 
 1. Copy the repository URL: On your GitHub repository page, copy the URL of your repository.
 2. Add the remote repository: In your terminal, use the command ```git remote add origin <repository URL>``` to connect your local repository to your GitHub repository. Replace ```<repository URL>``` with the URL you copied.
-3. Push your code to GitHub: Use the command ```git push -u origin master``` to upload your code to the "master" branch of your GitHub repository. You may be prompted to enter your GitHub credentials.
+3. Good practice to first pull your code from GitHub: Use the command ```git pull origin master``` to pull your code from the "master" branch of your GitHub repository.
+4. Push your code to GitHub: Use the command ```git push -u origin master``` to upload your code to the "master" branch of your GitHub repository. You may be prompted to enter your GitHub credentials.
 
 ## Step 4: Create a Pipeline for Updates
 
