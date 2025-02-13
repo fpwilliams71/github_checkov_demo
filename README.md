@@ -3,12 +3,6 @@ Demo: Integrate Checkov with GitHub Pipeline
 
 [For more details on Checkov integration.](https://github.com/bridgecrewio/checkov/blob/main/docs/4.Integrations/GitHub%20Actions.md?plain=1)
 
----
-layout: default
-published: true
-title: GitHub Actions
-nav_order: 3
----
 
 # Integrate Checkov with GitHub Actions
 
