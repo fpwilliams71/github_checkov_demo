@@ -14,6 +14,7 @@ resource "google_compute_instance" "default" {
     initialize_params {
       image = "debian-cloud/debian-11"
     }
+    disk_encryption_key_raw = 1111111111
   }
 
   network_interface {
