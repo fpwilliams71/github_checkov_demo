@@ -1,5 +1,5 @@
 # github_checkov_demo
-Demo: Integrate Checkov with GitHub Pipeline
+Demo: Integrate Checkov with GitHub Pipeline 
 
 # Integrate Checkov with GitHub Actions
 
@@ -75,10 +75,14 @@ This will fail a Checkov test:
 The previous error can be fixed by setting the value of encryption to **true**.
 ![Actions success](actions_success.png)
 
-## Appendix
+## Appendices and other reference articles
 
 1. To use a Checkov Action from the Marketplace check out Checkov's [pre-made action](https://github.com/bridgecrewio/checkov-action).
 
 2. [Read more details on Checkov integration with other pipelines.](https://github.com/bridgecrewio/checkov/tree/main/docs/4.Integrations)
 
 3. [Read more details on using Python in GitHub Actions.](https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions)
+
+4. [Comprehensive Guide to Using Checkov for Infrastructure as Code (IaC) Scanning](https://medium.com/@anshumaansingh10jan/comprehensive-guide-to-using-checkov-for-infrastructure-as-code-iac-scanning-bb6a93471c6a#:~:text=Infrastructure%20as%20Code%20(IaC)%20enables,files%2C%20and%20understanding%20its%20capabilities.)
+
+5. [Checkov default policies](https://www.checkov.io/5.Policy%20Index/all.html)
