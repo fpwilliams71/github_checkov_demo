@@ -1,16 +1,13 @@
 # github_checkov_demo
 Demo: Integrate Checkov with GitHub Pipeline
 
-[For more details on Checkov integration.](https://github.com/bridgecrewio/checkov/blob/main/docs/4.Integrations/GitHub%20Actions.md?plain=1)
-
-
 # Integrate Checkov with GitHub Actions
 
 Integrating Checkov into GitHub Actions provides a simple, automatic way of applying policies to your Terraform code both during pull request review and as part of any build process.
 
 ## Use a Checkov Action from the Marketplace
 
-Check out our [pre-made action](https://github.com/bridgecrewio/checkov-action).
+Check out Checkov's [pre-made action](https://github.com/bridgecrewio/checkov-action).
 
 ## Create Your Own Action: Basic Set-up
 
@@ -82,4 +79,8 @@ This will fail a Checkov test:
 The previous error can be fixed by setting the value of encryption to **true**.
 ![Actions success](actions_success.png)
 
-[Read more details on using Python in GitHub Actions.](https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions)
+## Appendix
+
+1. [Read more details on Checkov integration with other pipelines.](https://github.com/bridgecrewio/checkov/tree/main/docs/4.Integrations)
+
+2. [Read more details on using Python in GitHub Actions.](https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions)
