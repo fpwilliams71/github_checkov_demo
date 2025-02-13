@@ -16,10 +16,11 @@ resource "google_compute_instance" "default" {
     }
     // disk_encryption_key_raw = 1111111111
   }
-    shielded_instance_config {
-      enable_integrity_monitoring = false
-      enable_vtpm                 = false
-    }
+  
+  shielded_instance_config {
+    enable_integrity_monitoring = false
+    enable_vtpm                 = false
+  }
 
   network_interface {
     network = var.gcp_network
