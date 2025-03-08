@@ -14,7 +14,7 @@ resource "google_compute_instance" "default" {
     initialize_params {
       image = "debian-cloud/debian-11"
     }
-      # disk_encryption_key_raw = 1111111111   // Uncomment to ensure VM disks for critical VMs are encrypted with CSEK
+      disk_encryption_key_raw = 555555555555   // Uncomment to ensure VM disks for critical VMs are encrypted with CSEK
   }
   
    shielded_instance_config {
