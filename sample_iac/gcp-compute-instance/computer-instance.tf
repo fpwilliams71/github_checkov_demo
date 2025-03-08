@@ -25,9 +25,7 @@ resource "google_compute_instance" "default" {
   network_interface {
     network = var.gcp_network
 
-     access_config {
-      // Ephemeral public IP
-     }
+
   }
 
   metadata = {
