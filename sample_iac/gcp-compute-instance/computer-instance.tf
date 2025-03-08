@@ -26,7 +26,7 @@ resource "google_compute_instance" "default" {
     network = var.gcp_network
 
      access_config {
-      // Ephemeral public IP
+      Ephemeral public IP
      }
   }
 
