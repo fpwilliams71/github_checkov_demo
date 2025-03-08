@@ -8,5 +8,5 @@ gcp_network = "default"
 # gcp_auth_file = "../auth/fpw-credentials.json"
 
 # Bucket
-bucket-name   = "fpw-global-gsb" 
-storage-class = "REGIONAL"
+bucket_name = "fpw-global-gsb" 
+storage_class = "REGIONAL"
