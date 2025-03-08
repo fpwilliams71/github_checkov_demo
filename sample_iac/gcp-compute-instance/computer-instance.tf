@@ -18,8 +18,8 @@ resource "google_compute_instance" "default" {
   }
   
    shielded_instance_config {
-     enable_integrity_monitoring = false  // true to enable, and false to disable
-     enable_vtpm                 = false  // true ftoor enable, and false to disable
+     enable_integrity_monitoring = true  // true to enable, and false to disable
+     enable_vtpm                 = true  // true ftoor enable, and false to disable
    }
 
   network_interface {
